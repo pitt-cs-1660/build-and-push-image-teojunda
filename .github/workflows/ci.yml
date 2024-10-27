@@ -14,6 +14,12 @@ jobs:
       # checkout code
       - uses: actions/checkout@v4
 
+      # Log assertion values
+      - name: Log assertion values
+        run: |
+          echo "Repository: ${{ github.repository }}"
+          echo "Repository Owner: ${{ github.repository_owner }}"
+
       # authenticate with GCP with workload identity provider
       - uses: 'google-github-actions/auth@v2'
         id: auth
@@ -21,12 +27,6 @@ jobs:
         with:
           project_id: 'iconic-glider-316804' # update with your project ID
           workload_identity_provider: 'projects/238172950802/locations/global/workloadIdentityPools/github-actions/providers/my-repo' # update with your Workload Identity Pool
-     
-      # Log assertion values
-      - name: Log assertion values
-        run: |
-          echo "Repository: ${{ github.repository }}"
-          echo "Repository Owner: ${{ github.repository_owner }}"
 
       # configure/login with docker
       - name: gcloud Configure Docker
