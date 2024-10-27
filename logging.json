@@ -1,0 +1,2636 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.locations.list invocation-id/1e15cc9289f74927829b7ba74af2c035 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/238172950802/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/services/artifactregistry.googleapis.com",
+      "request": {
+        "name": "projects/iconic-glider-316804/services/artifactregistry.googleapis.com",
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest"
+      }
+    },
+    "insertId": "7s0ayldjn9q",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-27T21:11:03.409586Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-238172950802-98db7e8a-6ca8-48b7-8040-367dd07760a3",
+      "producer": "serviceusage.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-27T21:11:04.521979257Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.locations.list invocation-id/1e15cc9289f74927829b7ba74af2c035 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/238172950802",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/238172950802/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/238172950802/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/238172950802/operations/acat.p2-238172950802-98db7e8a-6ca8-48b7-8040-367dd07760a3"
+    },
+    "insertId": "qer757dlo3i",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "service": "serviceusage.googleapis.com",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2024-10-27T21:11:04.241571Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T21:11:04.836169990Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.locations.list invocation-id/1e15cc9289f74927829b7ba74af2c035 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/238172950802/services/artifactregistry.googleapis.com",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "services/artifactregistry.googleapis.com",
+          "permission": "servicemanagement.services.bind",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/services/artifactregistry.googleapis.com",
+      "request": {
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceRequest",
+        "name": "projects/iconic-glider-316804/services/artifactregistry.googleapis.com"
+      },
+      "response": {
+        "service": {
+          "name": "projects/238172950802/services/artifactregistry.googleapis.com",
+          "config": {
+            "title": "Artifact Registry API",
+            "name": "artifactregistry.googleapis.com"
+          },
+          "state": "ENABLED",
+          "parent": "projects/238172950802"
+        },
+        "@type": "type.googleapis.com/google.api.serviceusage.v1.EnableServiceResponse"
+      }
+    },
+    "insertId": "-3vqq0jdbmlq",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.api.serviceusage.v1.ServiceUsage.EnableService",
+        "service": "serviceusage.googleapis.com",
+        "project_id": "iconic-glider-316804"
+      }
+    },
+    "timestamp": "2024-10-27T21:11:06.207933015Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/acat.p2-238172950802-98db7e8a-6ca8-48b7-8040-367dd07760a3",
+      "producer": "serviceusage.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-27T21:11:06.207933015Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.locations.list invocation-id/1e15cc9289f74927829b7ba74af2c035 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "serviceusage.googleapis.com",
+      "methodName": "google.longrunning.Operations.GetOperation",
+      "authorizationInfo": [
+        {
+          "resource": "projectnumbers/238172950802",
+          "permission": "serviceusage.services.enable",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projectnumbers/238172950802/operations/-",
+          "permission": "serviceusage.operations.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        },
+        {
+          "resource": "projectnumbers/238172950802/services/-",
+          "permission": "serviceusage.services.get",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "DATA_READ"
+        }
+      ],
+      "resourceName": "projects/238172950802/operations/acat.p2-238172950802-98db7e8a-6ca8-48b7-8040-367dd07760a3"
+    },
+    "insertId": "1m0ywd8dlp18",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "serviceusage.googleapis.com",
+        "project_id": "iconic-glider-316804",
+        "method": "google.longrunning.Operations.GetOperation"
+      }
+    },
+    "timestamp": "2024-10-27T21:11:07.268409Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T21:11:08.135947078Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/94ae979d7e3c4e2cad4a8321c72b1e6f environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T21:16:58.075465327Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/global",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "workloadIdentityPool": {
+          "displayName": "GitHub Actions Pool",
+          "disabled": false
+        },
+        "parent": "projects/iconic-glider-316804/locations/global",
+        "workloadIdentityPoolId": "github"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "x2abdqdhxcb",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com",
+        "project_id": "iconic-glider-316804"
+      }
+    },
+    "timestamp": "2024-10-27T21:16:58.066264627Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/238172950802/locations/global/workloadIdentityPools/github/operations/bigarsw37k4ameeqyp3mgaq000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-27T21:16:59.081511929Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "resourceName": "projects/iconic-glider-316804/locations/global",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/238172950802/locations/global/workloadIdentityPools/github/operations/bigarsw37k4ameeqyp3mgaq000000000"
+      }
+    },
+    "insertId": "kjktuic3tf",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-27T21:16:58.947799Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/238172950802/locations/global/workloadIdentityPools/github/operations/bigarsw37k4ameeqyp3mgaq000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-27T21:16:59.326284729Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/051216a8323d45429f87cf1f216d97c3 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T21:22:41.282598320Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github",
+      "request": {
+        "parent": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProviderId": "my-repo",
+        "workloadIdentityPoolProvider": {
+          "attributeMapping": {
+            "google.subject": "assertion.sub",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository_owner": "assertion.repository_owner",
+            "attribute.repository": "assertion.repository"
+          },
+          "displayName": "My GitHub repo Provider",
+          "disabled": false,
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeCondition": "assertion.repository_owner == 'teojunda'"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "14jgf31dl6ec",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-10-27T21:22:41.262667386Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/238172950802/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bigario67k4amefquk5o6ai000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-27T21:22:41.630911277Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/238172950802/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bigario67k4amefquk5o6ai000000000"
+      }
+    },
+    "insertId": "o5ayskc4gv",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "iconic-glider-316804",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-27T21:22:41.502958Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/238172950802/locations/global/workloadIdentityPools/github/providers/my-repo/operations/bigario67k4amefquk5o6ai000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-27T21:22:41.562935581Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.repositories.create invocation-id/0665003797a04e6dbc9c3b5d5a7bec4b environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T21:32:58.038274315Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/us-central1",
+          "permission": "artifactregistry.repositories.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1",
+      "request": {
+        "repositoryId": "build-and-push-image-teojunda",
+        "@type": "type.googleapis.com/google.devtools.artifactregistry.v1.CreateRepositoryRequest",
+        "parent": "projects/iconic-glider-316804/locations/us-central1",
+        "repository": {
+          "name": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+          "format": "DOCKER"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      }
+    },
+    "insertId": "11qyicicoig",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-27T21:32:58.027407185Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/iconic-glider-316804/locations/us-central1/operations/deb3da6b-107a-42f1-b17f-4e9ee104f9d9",
+      "producer": "artifactregistry.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-27T21:32:58.823521327Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "service-agent-manager@system.gserviceaccount.com"
+      },
+      "requestMetadata": {
+        "callerIp": "private",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/iconic-glider-316804",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        },
+        {
+          "resource": "projects/iconic-glider-316804",
+          "permission": "resourcemanager.projects.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/iconic-glider-316804",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804",
+      "serviceData": {
+        "@type": "type.googleapis.com/google.iam.v1.logging.AuditData",
+        "policyDelta": {
+          "bindingDeltas": [
+            {
+              "action": "ADD",
+              "role": "roles/artifactregistry.serviceAgent",
+              "member": "serviceAccount:service-238172950802@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            }
+          ]
+        }
+      },
+      "request": {
+        "policy": {
+          "bindings": [
+            {
+              "members": [
+                "serviceAccount:service-238172950802@gcp-sa-aiplatform.iam.gserviceaccount.com"
+              ],
+              "role": "roles/aiplatform.serviceAgent"
+            },
+            {
+              "role": "roles/compute.serviceAgent",
+              "members": [
+                "serviceAccount:service-238172950802@compute-system.iam.gserviceaccount.com"
+              ]
+            },
+            {
+              "members": [
+                "serviceAccount:238172950802-compute@developer.gserviceaccount.com",
+                "serviceAccount:238172950802@cloudservices.gserviceaccount.com"
+              ],
+              "role": "roles/editor"
+            },
+            {
+              "role": "roles/owner",
+              "members": [
+                "user:teojunda@gmail.com"
+              ]
+            },
+            {
+              "members": [
+                "serviceAccountId:110664975545253636593"
+              ],
+              "role": "roles/artifactregistry.serviceAgent"
+            }
+          ],
+          "etag": "BwYj/Rc4zYM="
+        },
+        "resource": "238172950802",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy",
+        "bindings": [
+          {
+            "members": [
+              "serviceAccount:service-238172950802@gcp-sa-aiplatform.iam.gserviceaccount.com"
+            ],
+            "role": "roles/aiplatform.serviceAgent"
+          },
+          {
+            "members": [
+              "serviceAccount:service-238172950802@gcp-sa-artifactregistry.iam.gserviceaccount.com"
+            ],
+            "role": "roles/artifactregistry.serviceAgent"
+          },
+          {
+            "members": [
+              "serviceAccount:service-238172950802@compute-system.iam.gserviceaccount.com"
+            ],
+            "role": "roles/compute.serviceAgent"
+          },
+          {
+            "members": [
+              "serviceAccount:238172950802-compute@developer.gserviceaccount.com",
+              "serviceAccount:238172950802@cloudservices.gserviceaccount.com"
+            ],
+            "role": "roles/editor"
+          },
+          {
+            "members": [
+              "user:teojunda@gmail.com"
+            ],
+            "role": "roles/owner"
+          }
+        ],
+        "etag": "BwYlfBiZbrQ="
+      }
+    },
+    "insertId": "-mgms0sef33wa",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "iconic-glider-316804"
+      }
+    },
+    "timestamp": "2024-10-27T21:32:58.745528Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T21:32:59.708732686Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+      "response": {
+        "format": "DOCKER",
+        "description": "pitt-cs-1660/cs1660-fall2024-build-and-push-image-cc-docker-deploy",
+        "vulnerabilityScanningConfig": {
+          "lastEnableTime": "2024-10-27T21:32:58.049335668Z"
+        },
+        "sbomConfig": {},
+        "name": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+        "@type": "type.googleapis.com/google.protobuf.Any",
+        "mode": "STANDARD_REPOSITORY"
+      }
+    },
+    "insertId": "hsc9qxd3k9t",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+        "project_id": "iconic-glider-316804"
+      }
+    },
+    "timestamp": "2024-10-27T21:33:06.685920630Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/iconic-glider-316804/locations/us-central1/operations/deb3da6b-107a-42f1-b17f-4e9ee104f9d9",
+      "producer": "artifactregistry.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-27T21:33:07.079750777Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/21cc17b0bcca4446807ad0690a9959bf environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T21:46:31.871888648Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+      "request": {
+        "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1uvec8mcp9p",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "iconic-glider-316804"
+      }
+    },
+    "timestamp": "2024-10-27T21:46:31.863693092Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T21:46:33.089100331Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/3330dc3a477b4de58852cd3d0f2182e5 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T21:51:25.991814947Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "xbg0xecof7",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-27T21:51:25.984110433Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T21:51:26.955570456Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 6,
+        "message": "the repository already exists"
+      },
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.repositories.create invocation-id/1e8bb7abb08c4950b13e81184308300a environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T22:06:54.001844844Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/us-central1",
+          "permission": "artifactregistry.repositories.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1",
+      "request": {
+        "repository": {
+          "format": "DOCKER",
+          "name": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda"
+        },
+        "parent": "projects/iconic-glider-316804/locations/us-central1",
+        "@type": "type.googleapis.com/google.devtools.artifactregistry.v1.CreateRepositoryRequest",
+        "repositoryId": "build-and-push-image-teojunda"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      }
+    },
+    "insertId": "ziqq14coz1",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-27T22:06:53.988721585Z",
+    "severity": "ERROR",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T22:06:54.671263022Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.repositories.delete invocation-id/b31c3e17dda1462b9a03cefa9659e184 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T22:07:39.730426192Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.DeleteRepository",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+          "permission": "artifactregistry.repositories.delete",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+      "request": {
+        "@type": "type.googleapis.com/google.devtools.artifactregistry.v1.DeleteRepositoryRequest",
+        "name": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda"
+      }
+    },
+    "insertId": "8c1k58d17p2",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.DeleteRepository"
+      }
+    },
+    "timestamp": "2024-10-27T22:07:39.721255083Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/iconic-glider-316804/locations/us-central1/operations/feaba486-5623-4230-b8cb-b314c1049532",
+      "producer": "artifactregistry.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-27T22:07:40.506246586Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.DeleteRepository",
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+      "response": {
+        "value": {},
+        "@type": "type.googleapis.com/google.protobuf.Any"
+      }
+    },
+    "insertId": "1uwyp5rd7o2j",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "iconic-glider-316804",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.DeleteRepository"
+      }
+    },
+    "timestamp": "2024-10-27T22:07:39.822970711Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/iconic-glider-316804/locations/us-central1/operations/feaba486-5623-4230-b8cb-b314c1049532",
+      "producer": "artifactregistry.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-27T22:07:40.722360050Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.repositories.create invocation-id/30055c049abc4e65bd52489d43f21821 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T22:07:54.038745328Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/us-central1",
+          "permission": "artifactregistry.repositories.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1",
+      "request": {
+        "@type": "type.googleapis.com/google.devtools.artifactregistry.v1.CreateRepositoryRequest",
+        "repository": {
+          "name": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+          "format": "DOCKER"
+        },
+        "repositoryId": "build-and-push-image-teojunda",
+        "parent": "projects/iconic-glider-316804/locations/us-central1"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      }
+    },
+    "insertId": "10wqw0bcowu",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "iconic-glider-316804",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository"
+      }
+    },
+    "timestamp": "2024-10-27T22:07:54.029273989Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/iconic-glider-316804/locations/us-central1/operations/0c71bb2a-e9dd-499b-9964-49caffa97d44",
+      "producer": "artifactregistry.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-27T22:07:54.966118642Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+      "response": {
+        "vulnerabilityScanningConfig": {
+          "lastEnableTime": "2024-10-27T22:07:54.052963121Z"
+        },
+        "sbomConfig": {},
+        "@type": "type.googleapis.com/google.protobuf.Any",
+        "description": "some description",
+        "format": "DOCKER",
+        "name": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+        "mode": "STANDARD_REPOSITORY"
+      }
+    },
+    "insertId": "51z0ptd8rwa",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.CreateRepository",
+        "project_id": "iconic-glider-316804"
+      }
+    },
+    "timestamp": "2024-10-27T22:07:54.705259659Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/iconic-glider-316804/locations/us-central1/operations/0c71bb2a-e9dd-499b-9964-49caffa97d44",
+      "producer": "artifactregistry.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-27T22:07:55.141299965Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Invalid principalSet member (principalSet://iam.googleapis.com/projects/238172950802/locations/global/workloadIdentityPools/github/providers/my-repo)."
+      },
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/a496d695ef734f3698488b7a463bc170 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T22:17:26.352130042Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda"
+      }
+    },
+    "insertId": "6obupwcp6h",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-27T22:17:26.344460358Z",
+    "severity": "ERROR",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T22:17:26.633277445Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/5ac85f40a8fe4517a246777f7f586830 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T22:18:55.278178689Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "mibp5jcpzz",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "iconic-glider-316804",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-27T22:18:55.271151491Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T22:18:55.845996348Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/01cdf6d954b043cea9af5d6fa54fb5a5 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T22:38:05.922196337Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "vetnracoie",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "iconic-glider-316804",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-27T22:38:05.916286445Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T22:38:06.400432866Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/0b09f3847ad34e5384192e925d715456 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T22:42:20.897042083Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1s4myy5cqtk",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "iconic-glider-316804"
+      }
+    },
+    "timestamp": "2024-10-27T22:42:20.890217413Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T22:42:21.579907735Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 6,
+        "message": "Requested entity already exists"
+      },
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/1a843bfb326b4c9391db9b32bb60af35 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T22:59:45.548795472Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "workloadIdentityPoolProviderId": "my-repo",
+        "parent": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github",
+        "workloadIdentityPoolProvider": {
+          "disabled": false,
+          "attributeMapping": {
+            "google.subject": "assertion.sub",
+            "attribute.repository_owner": "assertion.repository_owner",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository": "assertion.repository"
+          },
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "displayName": "My GitHub repo Provider",
+          "attributeCondition": "assertion.repository_owner == 'teojunda'"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "12wt5uddgup4",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-10-27T22:59:45.531508307Z",
+    "severity": "ERROR",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T22:59:46.942488440Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/120522ffc2f14d99a0daf0be3874d240 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:07:19.031631303Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "sd4u8pcpp5",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "iconic-glider-316804"
+      }
+    },
+    "timestamp": "2024-10-27T23:07:19.024438483Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T23:07:20.234115799Z"
+  },
+  {
+    "insertId": "18ptk09e1fzi9",
+    "jsonPayload": {
+      "@type": "type.googleapis.com/google.cloud.networkanalyzer.logging.v1.Report",
+      "ipUtilizationInfo": {
+        "subnetIpUtilization": [
+          {
+            "subnetUri": "//compute.googleapis.com/projects/iconic-glider-316804/regions/us-east1/subnetworks/default",
+            "allocationRatio": 0.00024437927663734115
+          }
+        ]
+      },
+      "priority": "LOW",
+      "resourceName": "//compute.googleapis.com/projects/iconic-glider-316804",
+      "causeCode": "IP_UTILIZATION_IP_ALLOCATION_SUMMARY",
+      "reportGroups": [
+        "VPC_NETWORK"
+      ],
+      "type": "INFO",
+      "status": "ACTIVE",
+      "firstReportTime": "2024-09-15T23:12:33.307823296Z",
+      "location": "global",
+      "id": "iconic-glider-316804/ip_utilization/9799472979561649063"
+    },
+    "resource": {
+      "type": "networking.googleapis.com/Location",
+      "labels": {
+        "location": "global",
+        "project_id": "iconic-glider-316804"
+      }
+    },
+    "timestamp": "2024-10-27T23:12:33.252457223Z",
+    "logName": "projects/iconic-glider-316804/logs/networkanalyzer.googleapis.com%2Fanalyzer_reports",
+    "receiveTimestamp": "2024-10-27T23:12:33.775610894Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.iam.workload-identity-pools.delete invocation-id/c6edd5f5934d446f916ecb10829e4342 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:15:38.428411701Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPools.delete",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github",
+      "request": {
+        "name": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github",
+        "@type": "type.googleapis.com/google.iam.v1.DeleteWorkloadIdentityPoolRequest"
+      }
+    },
+    "insertId": "1kxs23ldhb1o",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "iconic-glider-316804",
+        "method": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-10-27T23:15:38.409718617Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/238172950802/locations/global/workloadIdentityPools/github/operations/bigargut7o4amegiqs75caq000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-27T23:15:38.773357283Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPool",
+      "resourceName": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/238172950802/locations/global/workloadIdentityPools/github/operations/bigargut7o4amegiqs75caq000000000"
+      }
+    },
+    "insertId": "tfhx8rcvak",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-10-27T23:15:38.708390Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/238172950802/locations/global/workloadIdentityPools/github/operations/bigargut7o4amegiqs75caq000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-27T23:15:39.627368420Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 5,
+        "message": "Requested entity was not found."
+      },
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/7675b77b28a5412785a44308044be8b5 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:15:45.662736238Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "disabled": false,
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeCondition": "assertion.repository == 'build-and-push-image-teojunda'",
+          "displayName": "My GitHub Repo Provider",
+          "attributeMapping": {
+            "google.subject": "assertion.sub",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository": "assertion.repository"
+          }
+        },
+        "workloadIdentityPoolProviderId": "my-repo",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "parent": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1k2emy4dn5z9",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "iconic-glider-316804"
+      }
+    },
+    "timestamp": "2024-10-27T23:15:45.645216518Z",
+    "severity": "ERROR",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T23:15:46.822240872Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 6,
+        "message": "Requested entity already exists"
+      },
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/60b9c7a5113a4f7ab5b1efb29e291298 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:16:24.547866853Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/global",
+      "request": {
+        "workloadIdentityPool": {
+          "displayName": "GitHub Actions Pool",
+          "disabled": false
+        },
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "parent": "projects/iconic-glider-316804/locations/global",
+        "workloadIdentityPoolId": "github"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "vcxz92dn6j6",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-10-27T23:16:24.538933383Z",
+    "severity": "ERROR",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T23:16:25.303621821Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 5,
+        "message": "Requested entity was not found."
+      },
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.iam.workload-identity-pools.delete invocation-id/8af8dfc9a7934a0f93514af0d2b37d7e environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:16:51.306657894Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github",
+          "permission": "iam.workloadIdentityPools.delete",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.DeleteWorkloadIdentityPoolRequest",
+        "name": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github"
+      }
+    },
+    "insertId": "1kxs23ldhb8q",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPool",
+        "project_id": "iconic-glider-316804",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-27T23:16:51.287242855Z",
+    "severity": "ERROR",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T23:16:51.793527720Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 6,
+        "message": "Requested entity already exists"
+      },
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/a5766aa58874437aabba5db5cac485fa environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:16:57.543526388Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/global",
+      "request": {
+        "workloadIdentityPool": {
+          "displayName": "GitHub Actions Pool",
+          "disabled": false
+        },
+        "parent": "projects/iconic-glider-316804/locations/global",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "workloadIdentityPoolId": "github"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "14jgf31dlhkv",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "project_id": "iconic-glider-316804",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-27T23:16:57.533905206Z",
+    "severity": "ERROR",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T23:16:58.329694324Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/66f5c222fd3f4d0791dc99c08094249f environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:17:10.672594778Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/global",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "workloadIdentityPoolId": "github-actions",
+        "parent": "projects/iconic-glider-316804/locations/global",
+        "workloadIdentityPool": {
+          "disabled": false,
+          "displayName": "GitHub Actions Pool"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "m7pdt4dnii0",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-27T23:17:10.665558838Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/238172950802/locations/global/workloadIdentityPools/github-actions/operations/bigar5ut7o4amegiwxy2uay000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-27T23:17:11.110075393Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "resourceName": "projects/iconic-glider-316804/locations/global",
+      "response": {
+        "name": "projects/238172950802/locations/global/workloadIdentityPools/github-actions/operations/bigar5ut7o4amegiwxy2uay000000000",
+        "@type": "type.googleapis.com/google.longrunning.Operation"
+      }
+    },
+    "insertId": "oqk8w2cyoj",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com",
+        "project_id": "iconic-glider-316804"
+      }
+    },
+    "timestamp": "2024-10-27T23:17:10.895768Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/238172950802/locations/global/workloadIdentityPools/github-actions/operations/bigar5ut7o4amegiwxy2uay000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-27T23:17:11.048013021Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/4693e63892ae470e8823fc5326a74c67 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:17:36.675920287Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github-actions",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github-actions",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "parent": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github-actions",
+        "workloadIdentityPoolProviderId": "my-repo",
+        "workloadIdentityPoolProvider": {
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeMapping": {
+            "google.subject": "assertion.sub",
+            "attribute.actor": "assertion.actor",
+            "attribute.repository": "assertion.repository"
+          },
+          "disabled": false,
+          "displayName": "My GitHub Repo Provider",
+          "attributeCondition": "assertion.repository == 'build-and-push-image-teojunda'"
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1mleltjdi4mm",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-10-27T23:17:36.660371249Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/238172950802/locations/global/workloadIdentityPools/github-actions/providers/my-repo/operations/bifqremu7o4amegy36zse00000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-27T23:17:37.852734635Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github-actions",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/238172950802/locations/global/workloadIdentityPools/github-actions/providers/my-repo/operations/bifqremu7o4amegy36zse00000000000"
+      }
+    },
+    "insertId": "q4vl15c2nz",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "service": "iam.googleapis.com",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider"
+      }
+    },
+    "timestamp": "2024-10-27T23:17:37.073611Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/238172950802/locations/global/workloadIdentityPools/github-actions/providers/my-repo/operations/bifqremu7o4amegy36zse00000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-27T23:17:37.215171838Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/f1c4baf8ac0e45a78959f1602770f677 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:18:00.273898841Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "135q0kicqqh",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "service": "artifactregistry.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-27T23:18:00.264380958Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T23:18:00.721122475Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 6,
+        "message": "Requested entity already exists"
+      },
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/c4a5f8b3e7c74b43ba0506cca47443c3 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:26:16.243258985Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github-actions",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github-actions",
+      "request": {
+        "workloadIdentityPoolProvider": {
+          "disabled": false,
+          "attributeMapping": {
+            "attribute.actor": "assertion.actor",
+            "google.subject": "assertion.sub",
+            "attribute.repository": "assertion.repository"
+          },
+          "attributeCondition": "assertion.repository == 'pitt-cs-1660/build-and-push-image-teojunda'",
+          "displayName": "My GitHub Repo Provider",
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          }
+        },
+        "workloadIdentityPoolProviderId": "my-repo",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest",
+        "parent": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github-actions"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1mleltjdi5d6",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "iconic-glider-316804",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-27T23:26:16.225205267Z",
+    "severity": "ERROR",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T23:26:16.900462140Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.iam.workload-identity-pools.delete invocation-id/f20899808fb2406c9e5603b46b59a125 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:27:23.288217541Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github-actions",
+          "permission": "iam.workloadIdentityPools.delete",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github-actions",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.DeleteWorkloadIdentityPoolRequest",
+        "name": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github-actions"
+      }
+    },
+    "insertId": "e7450ydghgm",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "iconic-glider-316804",
+        "method": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-10-27T23:27:23.274837263Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/238172950802/locations/global/workloadIdentityPools/github-actions/operations/bigarw4y7o4amehyv7f74aq000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-27T23:27:24.799544052Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPool",
+      "resourceName": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github-actions",
+      "response": {
+        "@type": "type.googleapis.com/google.longrunning.Operation",
+        "name": "projects/238172950802/locations/global/workloadIdentityPools/github-actions/operations/bigarw4y7o4amehyv7f74aq000000000"
+      }
+    },
+    "insertId": "kb5mb6c2j7",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "iconic-glider-316804",
+        "method": "google.iam.v1.WorkloadIdentityPools.DeleteWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-10-27T23:27:23.803725Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/238172950802/locations/global/workloadIdentityPools/github-actions/operations/bigarw4y7o4amehyv7f74aq000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-27T23:27:24.072443794Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 6,
+        "message": "Requested entity already exists"
+      },
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/d2011fdb066e47b1a5a7357c3a123f2d environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:27:51.670527415Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/global",
+      "request": {
+        "workloadIdentityPoolId": "github",
+        "parent": "projects/iconic-glider-316804/locations/global",
+        "workloadIdentityPool": {
+          "displayName": "GitHub Actions Pool",
+          "disabled": false
+        },
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1mleltjdi5gz",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-27T23:27:51.662621946Z",
+    "severity": "ERROR",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T23:27:51.908182653Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.iam.workload-identity-pools.create invocation-id/f62f3786c85f43e0ba89ba1cac7c002f environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:28:13.636733053Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/global",
+          "permission": "iam.workloadIdentityPools.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/global",
+      "request": {
+        "parent": "projects/iconic-glider-316804/locations/global",
+        "workloadIdentityPoolId": "github-ci-cd",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolRequest",
+        "workloadIdentityPool": {
+          "displayName": "GitHub Actions Pool",
+          "disabled": false
+        }
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "m7pdt4dnjaj",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "iam.googleapis.com",
+        "project_id": "iconic-glider-316804",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool"
+      }
+    },
+    "timestamp": "2024-10-27T23:28:13.627088974Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/238172950802/locations/global/workloadIdentityPools/github-ci-cd/operations/bifqrduz7o4ameeq3tqbm00000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-27T23:28:14.172269495Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+      "resourceName": "projects/iconic-glider-316804/locations/global",
+      "response": {
+        "name": "projects/238172950802/locations/global/workloadIdentityPools/github-ci-cd/operations/bifqrduz7o4ameeq3tqbm00000000000",
+        "@type": "type.googleapis.com/google.longrunning.Operation"
+      }
+    },
+    "insertId": "oqk8w2cyst",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPool",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-27T23:28:14.048148Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/238172950802/locations/global/workloadIdentityPools/github-ci-cd/operations/bifqrduz7o4ameeq3tqbm00000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-27T23:28:14.128966135Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.iam.workload-identity-pools.providers.create-oidc invocation-id/53d1756671284f0c94d85655961987d6 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:29:04.861790306Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github-ci-cd",
+          "permission": "iam.workloadIdentityPoolProviders.create",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github-ci-cd",
+      "request": {
+        "workloadIdentityPoolProviderId": "my-repo",
+        "workloadIdentityPoolProvider": {
+          "displayName": "My GitHub repo Provider",
+          "oidc": {
+            "issuerUri": "https://token.actions.githubusercontent.com"
+          },
+          "attributeCondition": "assertion.repository_owner == 'pitt-cs-1660'",
+          "disabled": false,
+          "attributeMapping": {
+            "attribute.actor": "assertion.actor",
+            "attribute.repository_owner": "assertion.repository_owner",
+            "google.subject": "assertion.sub",
+            "attribute.repository": "assertion.repository"
+          }
+        },
+        "parent": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github-ci-cd",
+        "@type": "type.googleapis.com/google.iam.v1.CreateWorkloadIdentityPoolProviderRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "global"
+        ]
+      }
+    },
+    "insertId": "1u1q22wdmcpy",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "project_id": "iconic-glider-316804",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-27T23:29:04.847653435Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/238172950802/locations/global/workloadIdentityPools/github-ci-cd/providers/my-repo/operations/bigarqmz7o4amefa5on3cai000000000",
+      "producer": "iam.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-10-27T23:29:05.880477194Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "iam.googleapis.com",
+      "methodName": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+      "resourceName": "projects/iconic-glider-316804/locations/global/workloadIdentityPools/github-ci-cd",
+      "response": {
+        "name": "projects/238172950802/locations/global/workloadIdentityPools/github-ci-cd/providers/my-repo/operations/bigarqmz7o4amefa5on3cai000000000",
+        "@type": "type.googleapis.com/google.longrunning.Operation"
+      }
+    },
+    "insertId": "oqk8w2cysv",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "method": "google.iam.v1.WorkloadIdentityPools.CreateWorkloadIdentityPoolProvider",
+        "service": "iam.googleapis.com"
+      }
+    },
+    "timestamp": "2024-10-27T23:29:05.372116Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "projects/238172950802/locations/global/workloadIdentityPools/github-ci-cd/providers/my-repo/operations/bigarqmz7o4amefa5on3cai000000000",
+      "producer": "iam.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-10-27T23:29:06.136552298Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.repositories.add-iam-policy-binding invocation-id/5a69fb711f1a4e7f9460cb6ccf360f93 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:31:58.191923138Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+      "request": {
+        "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "id36ghcqvu",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "project_id": "iconic-glider-316804",
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-27T23:31:58.182740648Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T23:31:58.482079015Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.repositories.remove-iam-policy-binding invocation-id/9b021dc35961403cb9ada68ad51b7ab2 environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:33:46.680023249Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "bfkgmdcrci",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "iconic-glider-316804",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-27T23:33:46.672130667Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T23:33:47.352286361Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.repositories.remove-iam-policy-binding invocation-id/2b758c62fc874e748991f9c8a9e6410a environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:34:07.492042779Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "1c13wuicsdr",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+        "project_id": "iconic-glider-316804"
+      }
+    },
+    "timestamp": "2024-10-27T23:34:07.485611079Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T23:34:08.426213198Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "teojunda@gmail.com",
+        "principalSubject": "user:teojunda@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "76.78.179.48",
+        "callerSuppliedUserAgent": "google-cloud-sdk gcloud/492.0.0 command/gcloud.artifacts.repositories.remove-iam-policy-binding invocation-id/c91b926abafc4c8a908f71a3a4e96bce environment/None environment-version/None client-os/MACOSX client-os-ver/23.6.0 client-pltf-arch/arm interactive/True from-script/False python/3.12.5 term/xterm-256color (Macintosh; Intel Mac OS X 23.6.0),gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-10-27T23:34:38.566843234Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "artifactregistry.googleapis.com",
+      "methodName": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy",
+      "authorizationInfo": [
+        {
+          "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+          "permission": "artifactregistry.repositories.setIamPolicy",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda",
+      "request": {
+        "@type": "type.googleapis.com/google.iam.v1.SetIamPolicyRequest",
+        "resource": "projects/iconic-glider-316804/locations/us-central1/repositories/build-and-push-image-teojunda"
+      },
+      "response": {
+        "@type": "type.googleapis.com/google.iam.v1.Policy"
+      }
+    },
+    "insertId": "u0cimvcpat",
+    "resource": {
+      "type": "audited_resource",
+      "labels": {
+        "service": "artifactregistry.googleapis.com",
+        "project_id": "iconic-glider-316804",
+        "method": "google.devtools.artifactregistry.v1.ArtifactRegistry.SetIamPolicy"
+      }
+    },
+    "timestamp": "2024-10-27T23:34:38.559717515Z",
+    "severity": "NOTICE",
+    "logName": "projects/iconic-glider-316804/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-10-27T23:34:39.582657218Z"
+  }
+]

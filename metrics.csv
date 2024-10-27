@@ -1,0 +1,8 @@
+TimeSeries ID,workload_identity_federation/count.iam.googleapis.com/WorkloadIdentityPoolProvider.ALIGN_RATE.REDUCE_SUM.metric.type="iam.googleapis.com/workload_identity_federation/count" resource.type="iam.googleapis.com/WorkloadIdentityPoolProvider" metric.label."result"="success".60s.pool_id:github-ci-cd.project_id:iconic-glider-316804
+project_id,iconic-glider-316804
+pool_id,github-ci-cd
+Sun Oct 27 2024 19:33:00 GMT-0400 (Eastern Daylight Time),0.024443740729012148
+Sun Oct 27 2024 19:34:00 GMT-0400 (Eastern Daylight Time),0.04222292593765452
+Sun Oct 27 2024 19:38:00 GMT-0400 (Eastern Daylight Time),0.006110935182253037
+Sun Oct 27 2024 19:39:00 GMT-0400 (Eastern Daylight Time),0.02888853703117274
+Sun Oct 27 2024 19:40:00 GMT-0400 (Eastern Daylight Time),0.031667194453240885
