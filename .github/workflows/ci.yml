@@ -21,6 +21,12 @@ jobs:
         with:
           project_id: 'iconic-glider-316804' # update with your project ID
           workload_identity_provider: 'projects/238172950802/locations/global/workloadIdentityPools/github-actions/providers/my-repo' # update with your Workload Identity Pool
+     
+      # Log assertion values
+      - name: Log assertion values
+        run: |
+          echo "Repository: ${{ github.repository }}"
+          echo "Repository Owner: ${{ github.repository_owner }}"
 
       # configure/login with docker
       - name: gcloud Configure Docker
